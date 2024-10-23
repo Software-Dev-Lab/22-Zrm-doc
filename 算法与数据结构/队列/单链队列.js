@@ -15,6 +15,9 @@ class Queue {
         return this.queue[0]
     }
     getCount() {
-        return this.getLength() === 0
+        return this.queue.length
+    }
+    isEmpty() {
+        return this.getCount() === 0
     }
 }
